@@ -91,8 +91,7 @@ public class Screen2 extends Activity {
 
                 @Override
                 protected void onPostExecute(String result) {
-                    Toast.makeText(getApplicationContext(), result,
-                            Toast.LENGTH_LONG).show();
+                    Toast.makeText(Screen2.this, "Your feedback has been submitted successfully", Toast.LENGTH_SHORT).show();
                 }
             }
         });
